@@ -24,3 +24,8 @@ Sources:
 
 https://herculeschess.com/how-does-a-chess-engine-work/
 The above website was a valuable reference to me in gaining a basic understanding of how chess engines work.
+
+
+MILESTONE
+
+See "15418 Milestone Report.pdf"
