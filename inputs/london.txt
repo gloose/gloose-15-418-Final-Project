@@ -1,0 +1,9 @@
+W
+rnbqkb r
+ppp pppp
+     n  
+   p    
+   P B  
+     N  
+PPP PPPP
+RN QKB R

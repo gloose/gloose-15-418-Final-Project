@@ -5,7 +5,7 @@ OBJS += Piece.o
 OBJS += Position.o
 
 CXX = mpic++ -std=c++11
-CXXFLAGS = -I. -O3 #-Wall -Wextra
+CXXFLAGS = -I. -O3 -g #-Wall -Wextra
 
 default: $(APP_NAME)
 

@@ -1,10 +1,16 @@
+/**
+ * @file Move.cpp
+ * @author Greg Loose (gloose)
+ * @brief This class represents a move, by which a player moves a piece from
+ * one position to another. Offers compression of a move into the space of a
+ * single int for ease of transmission over MPI messages.
+ * 
+ * @date 2022-05-04
+ */
+
 #include "Move.h"
 
 Move::Move() {
-    row1 = 0;
-    col1 = 0;
-    row2 = 0;
-    col2 = 0;
 }
 
 Move::Move(int r1, int c1, int r2, int c2) {

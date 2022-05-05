@@ -1,3 +1,13 @@
+/**
+ * @file Piece.cpp
+ * @author Greg Loose (gloose)
+ * @brief This file contains various operations involving the Pieces that
+ * make up the game board grid. See getPieceSymbol for details on piece
+ * symbols, which are used in the input files.
+ * 
+ * @date 2022-05-04
+ */
+
 #include "Piece.h"
 #include <limits>
 
@@ -8,6 +18,8 @@ Piece::Piece() {
 }
 
 Piece::Piece(bool inv) {
+    color = NOCOLOR;
+    type = NONE;
     invalid = inv;
 }
 
@@ -33,6 +45,13 @@ std::string Piece::getPieceSymbol() {
     return getPieceSymbol(type, color);
 }
 
+/**
+ * Pieces are represented by the first letter of their name, except for
+ * knights, which use the letter "N", since K is used by the king.
+ * Capital letters represent white pieces, and lowercase letters represent
+ * black pieces. This notation is used when printing the board to the console,
+ * as well as when reading an input file.
+ */
 std::string Piece::getPieceSymbol(PieceType type, Color color) {
     if (color == WHITE) {
         switch (type) {

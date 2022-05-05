@@ -1,3 +1,9 @@
+/**
+ * @file Piece.h
+ * @author Greg Loose (gloose)
+ * @date 2022-05-04
+ */
+
 #pragma once
 #include <string>
 
@@ -22,8 +28,8 @@ private:
     PieceType type;
     Color color;
     bool invalid;
-    int row;
-    int col;
+    int row = 0;
+    int col = 0;
 public:
     Piece();
     Piece(bool inv);
