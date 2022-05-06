@@ -29,3 +29,7 @@ The above website was a valuable reference to me in gaining a basic understandin
 MILESTONE
 
 See "15418 Milestone Report.pdf"
+
+FINAL
+
+See "report.pdf" for final report, and "project-presentation.mp4" for the final presentation.
